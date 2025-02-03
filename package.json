@@ -1,0 +1,22 @@
+{
+    "name": "financial-crime-detection",
+    "version": "1.0.0",
+    "description": "AI-powered system for detecting financial crimes",
+    "main": "app.py",
+    "scripts": {
+      "start": "uvicorn main:app --reload",
+      "generate-data": "python generate_data.py",
+      "train-model": "python train_model.py"
+    },
+    "dependencies": {
+      "fastapi": "^0.68.0",
+      "uvicorn": "^0.15.0",
+      "pandas": "^1.5.3",
+      "numpy": "^1.23.5",
+      "faker": "^1.5.3",
+      "scikit-learn": "^1.0.2",
+      "python-multipart": "^0.0.6",
+      "streamlit": "^1.20.0"
+    }
+  }
+  
